@@ -24,19 +24,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><button class="btn text-primary border-white my-0 py-0" data-bs-toggle="modal" data-bs-target="#gupiModal">Register</button></a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#Questions">Questions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#feedback">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button class="btn text-primary border-white my-0 py-0" data-bs-toggle="modal" data-bs-target="#gupiModal">Register</button></a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +84,7 @@
     </header>
     <!------ courses main part ------->
     <main class="bg-light pt-5">
-        <section class="container py-5">
+        <section class="container py-5" id="courses">
             <div class="text-center">
                 <h1>Our Popular Courses</h1>
                 <p>The course topics will be presented in front of you in a very simple way that you can easily understand.</p>
@@ -152,7 +152,8 @@
                     </div>
                 </div>
             </div>
-            <center><button class="btn btn-primary px-4 ">See All...</button></center>
+            <center><button class="btn btn-primary px-5 py-2">See All...</button></center>
+            <hr>
         </section>
         <!------- use of modal -------->
         <section class="container bg-primary rounded-4">
@@ -200,12 +201,62 @@
                 </div>
             </div>
         </section>
+        <!-- Meet Our Successful Students -->
+        <section class="container my-5 py-5">
+            <hr>
+            <div class="w-50 mt-5">
+                <h1 class="display-4 fw-semibold">Meet Our Successful Students</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mb-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                    <div class="card-body fw-bold">
+                      <h3 class=" text-black-50">Awlad Hossain</h3>
+                      <p>UIUX Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                    <div class="card-body fw-bold">
+                        <h3 class=" text-black-50">Jannatul Islam</h3>
+                        <p>Motion Design</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                    <div class="card-body fw-bold">
+                        <h3 class=" text-black-50">Imran Hossain</h3>
+                        <p>Graphic Designer</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body fw-bold">
+                        <h3 class=" text-black-50">Nishi Akter</h3>
+                        <p>Web Developer</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <center><button class="btn btn-primary px-5 py-2">See All...</button></center>
+        </section>
         <!------- students feedback -------->
-        <section class="container">
+        <section class="container py-5" id="feedback">
+            <div class="text-center">
+                <h1 class="text-black-50 my-4">Some Students Feedback</h1>
+            </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="50000" >
-                    <div class="row p-3">
+                    <div class="row p-3 gy-3">
                         <div class="col-md-6 col-11">
                             <div class="border border-2 border-primary p-3">
                                 <div class="d-flex justify-content-between">
@@ -360,7 +411,7 @@
             </div>
         </section>
         <!-- question and answer accordion -->
-        <section class="carousel-style w-75">
+        <section class="carousel-style w-75" id="Questions">
                 <h1 class="text-center mb-4">Frequently Asked Questions!</h1>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -417,7 +468,7 @@
               </div>
         </section>
         <!------- company names ------->
-        <section class="container d-none d-lg-block py-5">
+        <section class="container d-none d-lg-block py-5 mb-4">
             <h2 class="text-center mb-5 fw-bold">Trusted by over 800+ companies</h2>
             <div class="d-flex justify-content-between">
                 <div><img src="images/company/company-1.png" alt=""></div>
